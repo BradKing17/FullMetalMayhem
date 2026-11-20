@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://fswfdrtyhbhj"]
+
+[ext_resource type="Script" uid="uid://blrhpmvlbahbc" path="res://Scenes/Player/Weapons/WeaponBase.cs" id="1_1knf0"]
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_s1t60"]
+
+[node name="WeaponBase" type="Node3D" unique_id=1230198518 node_paths=PackedStringArray("muzzle")]
+script = ExtResource("1_1knf0")
+muzzle = NodePath("MeshInstance3D/Muzzle")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=1246339407]
+transform = Transform3D(0.5, 0, 0, 0, -2.1855694e-08, -0.5, 0, 0.5, -2.1855694e-08, 0, 0, 0)
+mesh = SubResource("CylinderMesh_s1t60")
+
+[node name="Muzzle" type="Node3D" parent="MeshInstance3D" unique_id=598961760]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.4573646, -6.3703425e-08)

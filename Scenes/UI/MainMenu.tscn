@@ -1,0 +1,109 @@
+[gd_scene format=3 uid="uid://bafh1ili5fwd"]
+
+[ext_resource type="Script" uid="uid://7fca81i8pot5" path="res://Scripts/MainMenu.cs" id="1_g18y6"]
+[ext_resource type="PackedScene" uid="uid://1aj8jkd0g5uw" path="res://Scenes/Environment/testworld.tscn" id="2_mjmdf"]
+[ext_resource type="PackedScene" uid="uid://dcj4kayseu163" path="res://Scenes/Player/Player.tscn" id="3_t6w0q"]
+
+[node name="MainMenu" type="CanvasLayer" unique_id=1667729957 node_paths=PackedStringArray("tubeMenu", "enetMenu", "joinButton", "quitButton")]
+script = ExtResource("1_g18y6")
+tubeMenu = NodePath("Control/PanelContainer/MarginContainer/HBoxContainer/Tube")
+enetMenu = NodePath("Control/PanelContainer/MarginContainer/HBoxContainer/Enet")
+joinButton = NodePath("Control/PanelContainer/MarginContainer/HBoxContainer/Enet/JoinButton")
+quitButton = NodePath("Control/PanelContainer/MarginContainer/HBoxContainer/Enet/QuitButton")
+mainScene = ExtResource("2_mjmdf")
+playerScene = ExtResource("3_t6w0q")
+
+[node name="Control" type="Control" parent="." unique_id=1280659104]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="PanelContainer" type="PanelContainer" parent="Control" unique_id=89713516]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -20.0
+offset_right = 20.0
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="Control/PanelContainer" unique_id=1439620230]
+layout_mode = 2
+theme_override_constants/margin_left = 20
+theme_override_constants/margin_top = 20
+theme_override_constants/margin_right = 20
+theme_override_constants/margin_bottom = 20
+
+[node name="HBoxContainer" type="HBoxContainer" parent="Control/PanelContainer/MarginContainer" unique_id=649908096]
+layout_mode = 2
+
+[node name="Tube" type="VBoxContainer" parent="Control/PanelContainer/MarginContainer/HBoxContainer" unique_id=314916722]
+layout_mode = 2
+
+[node name="Title" type="Label" parent="Control/PanelContainer/MarginContainer/HBoxContainer/Tube" unique_id=1848197996]
+layout_mode = 2
+theme_override_font_sizes/font_size = 24
+text = "Full Metal Mayhem"
+
+[node name="SessionID" type="Label" parent="Control/PanelContainer/MarginContainer/HBoxContainer/Tube" unique_id=1855177195]
+layout_mode = 2
+text = "Enter Session ID:"
+horizontal_alignment = 1
+
+[node name="SessionIdInput" type="LineEdit" parent="Control/PanelContainer/MarginContainer/HBoxContainer/Tube" unique_id=682095875]
+unique_name_in_owner = true
+layout_mode = 2
+
+[node name="Username" type="Label" parent="Control/PanelContainer/MarginContainer/HBoxContainer/Tube" unique_id=1602508437]
+layout_mode = 2
+text = "Enter Username:"
+horizontal_alignment = 1
+
+[node name="UserNameInput" type="LineEdit" parent="Control/PanelContainer/MarginContainer/HBoxContainer/Tube" unique_id=1219860648]
+unique_name_in_owner = true
+layout_mode = 2
+max_length = 12
+
+[node name="HSeparator" type="HSeparator" parent="Control/PanelContainer/MarginContainer/HBoxContainer/Tube" unique_id=717423206]
+layout_mode = 2
+
+[node name="JoinButtonTube" type="Button" parent="Control/PanelContainer/MarginContainer/HBoxContainer/Tube" unique_id=930076157]
+unique_name_in_owner = true
+layout_mode = 2
+text = "Join Session"
+
+[node name="QuitButtonTube" type="Button" parent="Control/PanelContainer/MarginContainer/HBoxContainer/Tube" unique_id=597481982]
+unique_name_in_owner = true
+layout_mode = 2
+text = "Quit Session"
+
+[node name="HSeparator2" type="HSeparator" parent="Control/PanelContainer/MarginContainer/HBoxContainer/Tube" unique_id=1943978236]
+layout_mode = 2
+
+[node name="CreateSessionButton" type="Button" parent="Control/PanelContainer/MarginContainer/HBoxContainer/Tube" unique_id=1026577460]
+unique_name_in_owner = true
+layout_mode = 2
+text = "Create Session"
+
+[node name="Enet" type="VBoxContainer" parent="Control/PanelContainer/MarginContainer/HBoxContainer" unique_id=936047349]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="Control/PanelContainer/MarginContainer/HBoxContainer/Enet" unique_id=833876607]
+layout_mode = 2
+text = "Full Metal Mayhem"
+
+[node name="JoinButton" type="Button" parent="Control/PanelContainer/MarginContainer/HBoxContainer/Enet" unique_id=671119666]
+layout_mode = 2
+text = "Join"
+
+[node name="QuitButton" type="Button" parent="Control/PanelContainer/MarginContainer/HBoxContainer/Enet" unique_id=554822451]
+layout_mode = 2
+text = "Quit"

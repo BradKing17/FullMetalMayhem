@@ -1,0 +1,90 @@
+[gd_scene format=3 uid="uid://1aj8jkd0g5uw"]
+
+[ext_resource type="Texture2D" uid="uid://dyyeay45ef0fh" path="res://Assets/kenney_prototype-textures/PNG/Dark/texture_01.png" id="1_u8cs0"]
+[ext_resource type="Script" uid="uid://c46kfwpyrmmsx" path="res://Scripts/Testworld.cs" id="1_y17g3"]
+
+[sub_resource type="WorldBoundaryShape3D" id="WorldBoundaryShape3D_s1t60"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_y17g3"]
+albedo_texture = ExtResource("1_u8cs0")
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_8g2fy"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_s1t60"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_s1t60"]
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_aqlbs"]
+
+[sub_resource type="Sky" id="Sky_8g2fy"]
+sky_material = SubResource("ProceduralSkyMaterial_aqlbs")
+
+[sub_resource type="Environment" id="Environment_s1t60"]
+background_mode = 2
+sky = SubResource("Sky_8g2fy")
+
+[node name="Testworld" type="Node3D" unique_id=2107516714 node_paths=PackedStringArray("spawnContainer")]
+script = ExtResource("1_y17g3")
+spawnContainer = NodePath("SpawnContainer")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="." unique_id=513327110]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D" unique_id=699663093]
+shape = SubResource("WorldBoundaryShape3D_s1t60")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBody3D" unique_id=1630800931]
+transform = Transform3D(50, 0, 0, 0, 50, 0, 0, 0, 50, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_y17g3")
+mesh = SubResource("PlaneMesh_8g2fy")
+
+[node name="StaticBody3D2" type="StaticBody3D" parent="." unique_id=806411411]
+transform = Transform3D(4, 0, 0, 0, 4, 0, 0, 0, 4, -4.7504654, 1.3727665, 1.8513532)
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBody3D2" unique_id=1051249375]
+mesh = SubResource("BoxMesh_s1t60")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D2" unique_id=1354328373]
+shape = SubResource("BoxShape3D_s1t60")
+
+[node name="StaticBody3D3" type="StaticBody3D" parent="." unique_id=1546306024]
+transform = Transform3D(4, 0, 0, 0, 4, 0, 0, 0, 4, 7.9185944, 1.3727665, -15.744274)
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBody3D3" unique_id=115276727]
+mesh = SubResource("BoxMesh_s1t60")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D3" unique_id=1731570182]
+shape = SubResource("BoxShape3D_s1t60")
+
+[node name="StaticBody3D4" type="StaticBody3D" parent="." unique_id=490307748]
+transform = Transform3D(4, 0, 0, 0, 4, 0, 0, 0, 4, -14.714943, 1.3727665, -27.387161)
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBody3D4" unique_id=388001972]
+mesh = SubResource("BoxMesh_s1t60")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D4" unique_id=377156932]
+shape = SubResource("BoxShape3D_s1t60")
+
+[node name="StaticBody3D5" type="StaticBody3D" parent="." unique_id=239750049]
+transform = Transform3D(4, 0, 0, 0, 4, 0, 0, 0, 4, 14.272043, 1.3727665, 10.093163)
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBody3D5" unique_id=309354175]
+mesh = SubResource("BoxMesh_s1t60")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D5" unique_id=846915373]
+shape = SubResource("BoxShape3D_s1t60")
+
+[node name="Camera3D" type="Camera3D" parent="." unique_id=1064975132]
+transform = Transform3D(0.27395925, -0.21634471, 0.93709195, 0, 0.97437006, 0.22495106, -0.9617413, -0.06162742, 0.2669377, 34.175674, 10.999077, 9.946531)
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=919398120]
+environment = SubResource("Environment_s1t60")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=362178520]
+transform = Transform3D(-0.06482946, -0.8955001, -0.44031426, 0.26617825, -0.44077381, 0.8572442, -0.9617413, -0.061627395, 0.2669378, 29.11088, 10.999077, 9.946531)
+shadow_enabled = true
+
+[node name="SpawnContainer" type="Node3D" parent="." unique_id=603090024]
+
+[node name="MultiplayerSpawner" type="MultiplayerSpawner" parent="." unique_id=2008205346]
+_spawnable_scenes = PackedStringArray("uid://cwg1vojksequ0", "uid://b774a4eud2gen")
+spawn_path = NodePath("../SpawnContainer")

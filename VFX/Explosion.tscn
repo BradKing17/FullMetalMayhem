@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://mc5qi7pr55iq"]
+
+[ext_resource type="Shader" uid="uid://bfd3edroc6sqs" path="res://VFX/Explosion.tres" id="1_tasy8"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_8g2fy"]
+render_priority = 0
+shader = ExtResource("1_tasy8")
+shader_parameter/CloudSpeed = Vector2(0, 0.5)
+shader_parameter/CloudSize = 0.2
+
+[sub_resource type="SphereMesh" id="SphereMesh_s1t60"]
+
+[node name="Explosion" type="Node3D" unique_id=503822406]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=9176463]
+material_override = SubResource("ShaderMaterial_8g2fy")
+mesh = SubResource("SphereMesh_s1t60")
