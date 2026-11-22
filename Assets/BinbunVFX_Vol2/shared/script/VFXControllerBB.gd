@@ -67,7 +67,6 @@ func _enter_tree() -> void:
 	if autoplay: play()
 
 func play() -> void:
-	print("playing")
 	anim.play("main")
 	anim.seek(0.0)
 	

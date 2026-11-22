@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://dcj4kayseu163"]
 
-[ext_resource type="Script" uid="uid://eu0hwhk2eofi" path="res://Scripts/Player.cs" id="1_ft8w5"]
+[ext_resource type="Script" uid="uid://eu0hwhk2eofi" path="res://Scripts/Characters/Player.cs" id="1_ft8w5"]
 [ext_resource type="PackedScene" uid="uid://stfkne6u5o2j" path="res://assets/kenney_mini-dungeon/Models/FBX format/character-human.fbx" id="2_ft8w5"]
 [ext_resource type="PackedScene" uid="uid://cwg1vojksequ0" path="res://Scenes/Environment/test_ball.tscn" id="2_h54ih"]
 [ext_resource type="PackedScene" uid="uid://fswfdrtyhbhj" path="res://Scenes/Player/Weapons/WeaponBase.tscn" id="4_jmcll"]

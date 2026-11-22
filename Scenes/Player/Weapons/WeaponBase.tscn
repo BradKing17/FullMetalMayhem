@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://fswfdrtyhbhj"]
 
-[ext_resource type="Script" uid="uid://blrhpmvlbahbc" path="res://Scenes/Player/Weapons/WeaponBase.cs" id="1_1knf0"]
+[ext_resource type="Script" uid="uid://blrhpmvlbahbc" path="res://Scripts/Weapons/WeaponBase.cs" id="1_1knf0"]
 [ext_resource type="PackedScene" uid="uid://chqijevfxuhpd" path="res://assets/BinbunVFX_Vol2/ExplosionFX/effects/ground/vfx_ground_explosion_01.tscn" id="2_3lgkl"]
 
 [sub_resource type="CylinderMesh" id="CylinderMesh_s1t60"]

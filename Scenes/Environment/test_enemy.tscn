@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://b774a4eud2gen"]
 
 [ext_resource type="PackedScene" uid="uid://cijrx8ha6cva0" path="res://assets/kenney_mini-dungeon/Models/FBX format/character-orc.fbx" id="1_1qn2w"]
-[ext_resource type="Script" uid="uid://laycjdctmf4f" path="res://Scenes/Environment/EnemyBase.cs" id="1_fk4pr"]
+[ext_resource type="Script" uid="uid://laycjdctmf4f" path="res://Scripts/Characters/EnemyBase.cs" id="1_fk4pr"]
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_fk4pr"]
 radius = 0.6

@@ -26,24 +26,28 @@ public partial class Explosive : RigidBody3D
 	{
 	}
 
+	
 	public void Detonate(Node3D body)
 	{
-		if(body.IsInGroup("Enemies"))
-		{
-			body.Call("TakeDamage", damage);
-		}
-		Vector3 explosionPosition = GlobalPosition;
+	if (!Multiplayer.IsServer())
+        return;
 
-		if (Multiplayer.IsServer())
-		{
-			global.Rpc(
-				nameof(global.SpawnExplosionEffect),
-				explosionPosition,
-				explosionEffect.ResourcePath
-			);
-		}
+    if (body.IsInGroup("Enemies"))
+    {
+        if (body is EnemyBase enemy)
+        {
+            enemy.TakeDamage(damage);
+        }
+    }
 
-		QueueFree();
-		
-	}
+    Vector3 explosionPosition = GlobalPosition;
+
+    global.Rpc(
+        nameof(global.SpawnExplosionEffect),
+        explosionPosition,
+        explosionEffect.ResourcePath
+    );
+
+    QueueFree();
+}
 }

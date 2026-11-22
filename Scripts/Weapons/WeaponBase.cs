@@ -30,7 +30,6 @@ public partial class WeaponBase : Node3D
 		if (!IsMultiplayerAuthority())
 			return;
 
-		GD.Print("Player " + Name + " fired a shot!");
 
 		if (Multiplayer.IsServer())
 		{
@@ -52,9 +51,6 @@ public partial class WeaponBase : Node3D
 	[Rpc(MultiplayerApi.RpcMode.AnyPeer)]
 	private void RequestShoot(Vector3 pos, Vector3 direction)
 	{
-
-		GD.Print("Server received shooting request!");
-
 		global.Shoot(pos, direction, projectile);
 	}
 }

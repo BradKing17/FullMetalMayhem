@@ -7,10 +7,11 @@ public partial class Global : Node
 
 	public static string userName = "";
 	public static  Node3D map;
-
 	public static  Node3D spawnContainer;
-
 	public int points = 0;
+
+	public static Godot.Collections.Array<PackedScene> enemyScenes;
+	private int enemyCount = 0;
 
     public override void _Ready()
     {
@@ -21,10 +22,7 @@ public partial class Global : Node
 	[Rpc(MultiplayerApi.RpcMode.Authority, CallLocal = true)]
 	public void Shoot(Vector3 pos, Vector3 direction, PackedScene projectile)
 	{
-
-		GD.Print("Server spawning projectile!");
 		var bullet = projectile.Instantiate<RigidBody3D>();
-
 
 		spawnContainer.AddChild(bullet, true);
 		bullet.GlobalPosition = pos;
@@ -57,15 +55,32 @@ public partial class Global : Node
 		explosion.Call("play");
 	}
 
-	[Rpc(MultiplayerApi.RpcMode.AnyPeer, CallLocal = true)]
-	public void Death(Node3D killed)
+	public void SpawnEnemy()
 	{
-		if(killed.IsInGroup("Enemies"))
+		enemyCount++;	
+		if (!Multiplayer.IsServer())
 		{
-			points++;
-			GD.Print(points);
+			return;
 		}
-		GD.Print("AAAAAAAAAAAAAAAAAH");
-		killed.QueueFree();
+		var enemy = enemyScenes.PickRandom();
+
+		EnemyBase spawnedEnemy = enemy.Instantiate<EnemyBase>();
+		spawnedEnemy.Name = "Enemy_" + enemyCount;
+
+		spawnContainer.AddChild(spawnedEnemy);
+		int positionX = GD.RandRange(-10, 10);
+		int positionZ = GD.RandRange(-10, 10);
+		spawnedEnemy.Position = new Vector3(positionX, 0, positionZ);
 	}
+  
+
+	[Rpc(MultiplayerApi.RpcMode.Authority, CallLocal = true)]
+	public void UpdatePoints(int newPoints)
+	{
+		points = newPoints;
+
+		GD.Print("Current points: " + points);
+
+	}
+
 }

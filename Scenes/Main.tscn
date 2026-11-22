@@ -1,9 +1,9 @@
 [gd_scene format=3 uid="uid://ceudhtqmasipm"]
 
 [ext_resource type="PackedScene" uid="uid://bafh1ili5fwd" path="res://Scenes/UI/MainMenu.tscn" id="1_r150o"]
-[ext_resource type="Script" uid="uid://oex6djxrp2ah" path="res://Scenes/Main.cs" id="1_rgh2o"]
+[ext_resource type="Script" uid="uid://oex6djxrp2ah" path="res://Scripts/Gameflow/Main.cs" id="1_rgh2o"]
 [ext_resource type="Script" uid="uid://cy006uvidc4y" path="res://addons/tube/tube_client.gd" id="2_kln2b"]
-[ext_resource type="Resource" uid="uid://bod13svsl3bi8" path="res://Scripts/TubeContext.tres" id="3_rgh2o"]
+[ext_resource type="Resource" uid="uid://bod13svsl3bi8" path="res://Scripts/Gameflow/TubeContext.tres" id="3_rgh2o"]
 
 [node name="Main" type="Node" unique_id=127313553]
 script = ExtResource("1_rgh2o")

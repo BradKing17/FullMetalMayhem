@@ -41,19 +41,30 @@ public partial class EnemyBase : CharacterBody3D
 		MoveAndSlide();
 
 	}
-
 	public void TakeDamage(float damage)
 	{
-		GD.Print("Took " + damage + " damage");
+		if (!Multiplayer.IsServer())
+			return;
+
+
 		health -= damage;
-		if(health <= 0)
+
+		if (health <= 0)
 		{
-
-			global.Death(this);
-
+			Die();
 		}
 	}
 
+	public void Die()
+	{
+		if (!Multiplayer.IsServer())
+			return;
 
+		global.points++;
+
+		global.Rpc(nameof(global.UpdatePoints), global.points);
+
+		QueueFree();
+	}
 
 }
