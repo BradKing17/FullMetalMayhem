@@ -11,7 +11,7 @@ public partial class Global : Node
 	public int points = 0;
 
 	public static Godot.Collections.Array<PackedScene> enemyScenes;
-	private int enemyCount = 0;
+	private int enemiesSpawned = 0;
 
     public override void _Ready()
     {
@@ -57,7 +57,7 @@ public partial class Global : Node
 
 	public void SpawnEnemy()
 	{
-		enemyCount++;	
+		enemiesSpawned++;	
 		if (!Multiplayer.IsServer())
 		{
 			return;
@@ -65,7 +65,7 @@ public partial class Global : Node
 		var enemy = enemyScenes.PickRandom();
 
 		EnemyBase spawnedEnemy = enemy.Instantiate<EnemyBase>();
-		spawnedEnemy.Name = "Enemy_" + enemyCount;
+		spawnedEnemy.Name = "Enemy_" + enemiesSpawned;
 
 		spawnContainer.AddChild(spawnedEnemy);
 		int positionX = GD.RandRange(-10, 10);
