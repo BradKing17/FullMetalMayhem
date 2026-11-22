@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://b5f1bp8lsj5xd"
-path="res://.godot/imported/debris-tire.fbx-814e80a8c15315903a29b90f81d63b2a.scn"
+path="res://.godot/imported/debris-tire.fbx-b9cceb2f147bd541a48d4a3ace0c20b9.scn"
 
 [deps]
 
-source_file="res://Assets/kenney_car-kit/Models/FBX format/debris-tire.fbx"
-dest_files=["res://.godot/imported/debris-tire.fbx-814e80a8c15315903a29b90f81d63b2a.scn"]
+source_file="res://assets/kenney_car-kit/Models/FBX format/debris-tire.fbx"
+dest_files=["res://.godot/imported/debris-tire.fbx-b9cceb2f147bd541a48d4a3ace0c20b9.scn"]
 
 [params]
 

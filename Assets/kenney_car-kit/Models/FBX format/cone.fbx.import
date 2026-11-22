@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cvf7aof0d7vua"
-path="res://.godot/imported/cone.fbx-b2f921de6352b1904c1d4aefb6102d1a.scn"
+path="res://.godot/imported/cone.fbx-4912e3ef0fa3322d28761a871f1ce5b4.scn"
 
 [deps]
 
-source_file="res://Assets/kenney_car-kit/Models/FBX format/cone.fbx"
-dest_files=["res://.godot/imported/cone.fbx-b2f921de6352b1904c1d4aefb6102d1a.scn"]
+source_file="res://assets/kenney_car-kit/Models/FBX format/cone.fbx"
+dest_files=["res://.godot/imported/cone.fbx-4912e3ef0fa3322d28761a871f1ce5b4.scn"]
 
 [params]
 

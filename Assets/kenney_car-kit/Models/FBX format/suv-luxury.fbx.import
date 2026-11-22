@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://7chsepdxbksq"
-path="res://.godot/imported/suv-luxury.fbx-4ea93ae8bbbe81fd2b9311426cd2ec1e.scn"
+path="res://.godot/imported/suv-luxury.fbx-6457e02393b4abad0d137f4af1446d7c.scn"
 
 [deps]
 
-source_file="res://Assets/kenney_car-kit/Models/FBX format/suv-luxury.fbx"
-dest_files=["res://.godot/imported/suv-luxury.fbx-4ea93ae8bbbe81fd2b9311426cd2ec1e.scn"]
+source_file="res://assets/kenney_car-kit/Models/FBX format/suv-luxury.fbx"
+dest_files=["res://.godot/imported/suv-luxury.fbx-6457e02393b4abad0d137f4af1446d7c.scn"]
 
 [params]
 

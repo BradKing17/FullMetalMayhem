@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://d2rfsydw7giea"
-path="res://.godot/imported/water-tower.fbx-bf1795646288fc05f56a49f566badcea.scn"
+path="res://.godot/imported/water-tower.fbx-74be03bd205ea9f5a36b1a2c6b95d499.scn"
 
 [deps]
 
-source_file="res://Assets/kenney_city-kit-industrial_2.0/Models/FBX format/water-tower.fbx"
-dest_files=["res://.godot/imported/water-tower.fbx-bf1795646288fc05f56a49f566badcea.scn"]
+source_file="res://assets/kenney_city-kit-industrial_2.0/Models/FBX format/water-tower.fbx"
+dest_files=["res://.godot/imported/water-tower.fbx-74be03bd205ea9f5a36b1a2c6b95d499.scn"]
 
 [params]
 

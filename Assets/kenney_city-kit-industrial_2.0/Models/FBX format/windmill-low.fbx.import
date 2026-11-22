@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cstblx0gwcxp2"
-path="res://.godot/imported/windmill-low.fbx-5b01746e01399bca854279406094900f.scn"
+path="res://.godot/imported/windmill-low.fbx-e6dde18cbf04e7c03a2c5ec2472c3036.scn"
 
 [deps]
 
-source_file="res://Assets/kenney_city-kit-industrial_2.0/Models/FBX format/windmill-low.fbx"
-dest_files=["res://.godot/imported/windmill-low.fbx-5b01746e01399bca854279406094900f.scn"]
+source_file="res://assets/kenney_city-kit-industrial_2.0/Models/FBX format/windmill-low.fbx"
+dest_files=["res://.godot/imported/windmill-low.fbx-e6dde18cbf04e7c03a2c5ec2472c3036.scn"]
 
 [params]
 

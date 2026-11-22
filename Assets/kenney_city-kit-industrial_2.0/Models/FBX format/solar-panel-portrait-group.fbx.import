@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bfbltb3b04j3g"
-path="res://.godot/imported/solar-panel-portrait-group.fbx-f1d27b10586ad4b3097c8c3f32adc720.scn"
+path="res://.godot/imported/solar-panel-portrait-group.fbx-30167958b62bef02b7924378f2555e7a.scn"
 
 [deps]
 
-source_file="res://Assets/kenney_city-kit-industrial_2.0/Models/FBX format/solar-panel-portrait-group.fbx"
-dest_files=["res://.godot/imported/solar-panel-portrait-group.fbx-f1d27b10586ad4b3097c8c3f32adc720.scn"]
+source_file="res://assets/kenney_city-kit-industrial_2.0/Models/FBX format/solar-panel-portrait-group.fbx"
+dest_files=["res://.godot/imported/solar-panel-portrait-group.fbx-30167958b62bef02b7924378f2555e7a.scn"]
 
 [params]
 

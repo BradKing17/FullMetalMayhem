@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://stfkne6u5o2j"
-path="res://.godot/imported/character-human.fbx-b3d408fcac2d1cfd086e6c2b6a05208f.scn"
+path="res://.godot/imported/character-human.fbx-4fb6b894606b2cee935b4fe33c7867c0.scn"
 
 [deps]
 
-source_file="res://Assets/kenney_mini-dungeon/Models/FBX format/character-human.fbx"
-dest_files=["res://.godot/imported/character-human.fbx-b3d408fcac2d1cfd086e6c2b6a05208f.scn"]
+source_file="res://assets/kenney_mini-dungeon/Models/FBX format/character-human.fbx"
+dest_files=["res://.godot/imported/character-human.fbx-4fb6b894606b2cee935b4fe33c7867c0.scn"]
 
 [params]
 

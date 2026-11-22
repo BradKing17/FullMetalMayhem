@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://uwvqqq5t8aa1"
-path="res://.godot/imported/shield-rectangle.fbx-b29301d217186dba14e63c2c55ebd933.scn"
+path="res://.godot/imported/shield-rectangle.fbx-47ad22555d077f251d0881558b7146bf.scn"
 
 [deps]
 
-source_file="res://Assets/kenney_mini-dungeon/Models/FBX format/shield-rectangle.fbx"
-dest_files=["res://.godot/imported/shield-rectangle.fbx-b29301d217186dba14e63c2c55ebd933.scn"]
+source_file="res://assets/kenney_mini-dungeon/Models/FBX format/shield-rectangle.fbx"
+dest_files=["res://.godot/imported/shield-rectangle.fbx-47ad22555d077f251d0881558b7146bf.scn"]
 
 [params]
 

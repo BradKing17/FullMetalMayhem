@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cijrx8ha6cva0"
-path="res://.godot/imported/character-orc.fbx-3a2c9a2ff8b41b1c5ff463bfbd5efabd.scn"
+path="res://.godot/imported/character-orc.fbx-23fc94097e0fcdb5c9cabf21fb9dca8e.scn"
 
 [deps]
 
-source_file="res://Assets/kenney_mini-dungeon/Models/FBX format/character-orc.fbx"
-dest_files=["res://.godot/imported/character-orc.fbx-3a2c9a2ff8b41b1c5ff463bfbd5efabd.scn"]
+source_file="res://assets/kenney_mini-dungeon/Models/FBX format/character-orc.fbx"
+dest_files=["res://.godot/imported/character-orc.fbx-23fc94097e0fcdb5c9cabf21fb9dca8e.scn"]
 
 [params]
 

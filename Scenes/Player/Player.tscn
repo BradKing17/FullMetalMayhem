@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://dcj4kayseu163"]
 
 [ext_resource type="Script" uid="uid://eu0hwhk2eofi" path="res://Scripts/Player.cs" id="1_ft8w5"]
-[ext_resource type="PackedScene" uid="uid://stfkne6u5o2j" path="res://Assets/kenney_mini-dungeon/Models/FBX format/character-human.fbx" id="2_ft8w5"]
+[ext_resource type="PackedScene" uid="uid://stfkne6u5o2j" path="res://assets/kenney_mini-dungeon/Models/FBX format/character-human.fbx" id="2_ft8w5"]
 [ext_resource type="PackedScene" uid="uid://cwg1vojksequ0" path="res://Scenes/Environment/test_ball.tscn" id="2_h54ih"]
 [ext_resource type="PackedScene" uid="uid://fswfdrtyhbhj" path="res://Scenes/Player/Weapons/WeaponBase.tscn" id="4_jmcll"]
 [ext_resource type="PackedScene" uid="uid://bupdqaqa6rjdb" path="res://Scenes/Player/Weapons/rocket.tscn" id="5_jmcll"]
@@ -16,7 +16,7 @@ properties/1/path = NodePath("character-human:rotation")
 properties/1/spawn = true
 properties/1/replication_mode = 1
 
-[node name="Player" type="CharacterBody3D" unique_id=985326247 node_paths=PackedStringArray("playerCamera", "playerMesh", "namePlate", "sessionIdLabel", "menu", "leaveGameButton", "primaryWeapon")]
+[node name="Player" type="CharacterBody3D" unique_id=985326247 node_paths=PackedStringArray("playerCamera", "playerMesh", "namePlate", "sessionIdLabel", "menu", "leaveGameButton", "primaryWeapon") groups=["Players"]]
 script = ExtResource("1_ft8w5")
 playerCamera = NodePath("Camera3D")
 playerMesh = NodePath("character-human")
@@ -36,7 +36,8 @@ shape = SubResource("CapsuleShape3D_ft8w5")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.6032245, 0)
 
 [node name="Camera3D" type="Camera3D" parent="." unique_id=357828917]
-transform = Transform3D(1, 0, 0, 0, 0.75307494, 0.6579347, 0, -0.6579347, 0.75307494, 0, 8.081312, 8.541745)
+transform = Transform3D(1, 0, 0, 0, 0.75307494, 0.6579347, 0, -0.6579347, 0.75307494, 0, 9.461145, 10.787609)
+fov = 90.0
 size = 8.915
 
 [node name="character-human" parent="." unique_id=913287422 instance=ExtResource("2_ft8w5")]

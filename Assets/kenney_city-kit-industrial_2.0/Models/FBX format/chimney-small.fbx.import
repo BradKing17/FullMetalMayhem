@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bp7eixqouspjb"
-path="res://.godot/imported/chimney-small.fbx-a4aae8930d4193917ef1e731af51a110.scn"
+path="res://.godot/imported/chimney-small.fbx-018e4aa9f2b154085395b1bd30f18773.scn"
 
 [deps]
 
-source_file="res://Assets/kenney_city-kit-industrial_2.0/Models/FBX format/chimney-small.fbx"
-dest_files=["res://.godot/imported/chimney-small.fbx-a4aae8930d4193917ef1e731af51a110.scn"]
+source_file="res://assets/kenney_city-kit-industrial_2.0/Models/FBX format/chimney-small.fbx"
+dest_files=["res://.godot/imported/chimney-small.fbx-018e4aa9f2b154085395b1bd30f18773.scn"]
 
 [params]
 

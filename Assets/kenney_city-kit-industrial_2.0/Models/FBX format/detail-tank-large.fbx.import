@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://g6jruyabr4tu"
-path="res://.godot/imported/detail-tank-large.fbx-5dba6efaaed2ee561b5ea43c1e4c7c96.scn"
+path="res://.godot/imported/detail-tank-large.fbx-5ce18ca022abffaff57e4cfa5793e69b.scn"
 
 [deps]
 
-source_file="res://Assets/kenney_city-kit-industrial_2.0/Models/FBX format/detail-tank-large.fbx"
-dest_files=["res://.godot/imported/detail-tank-large.fbx-5dba6efaaed2ee561b5ea43c1e4c7c96.scn"]
+source_file="res://assets/kenney_city-kit-industrial_2.0/Models/FBX format/detail-tank-large.fbx"
+dest_files=["res://.godot/imported/detail-tank-large.fbx-5ce18ca022abffaff57e4cfa5793e69b.scn"]
 
 [params]
 

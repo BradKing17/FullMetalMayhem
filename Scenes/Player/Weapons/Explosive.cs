@@ -7,11 +7,18 @@ public partial class Explosive : RigidBody3D
 	[Export] private Area3D detonateArea;
 
 	[Export] private float damage = 10.0f;
+
+	[Export] private PackedScene explosionEffect;
+
+	[Export] private MeshInstance3D mesh;
+
+	Global global;
 	
 	// Called when the node enters the scene tree for the first time.
 	public override void _Ready()
 	{
-		detonateArea.AreaEntered += Detonate;
+		global = GetNode<Global>("/root/Global");
+		detonateArea.BodyEntered += Detonate;
 	}
 
 	// Called every frame. 'delta' is the elapsed time since the previous frame.
@@ -25,7 +32,18 @@ public partial class Explosive : RigidBody3D
 		{
 			body.Call("TakeDamage", damage);
 		}
+		Vector3 explosionPosition = GlobalPosition;
+
+		if (Multiplayer.IsServer())
+		{
+			global.Rpc(
+				nameof(global.SpawnExplosionEffect),
+				explosionPosition,
+				explosionEffect.ResourcePath
+			);
+		}
 
 		QueueFree();
+		
 	}
 }

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bnss25e62dhcu"
-path="res://.godot/imported/banner.fbx-0cad89bc590f5d03c7a50224b2e4bd3b.scn"
+path="res://.godot/imported/banner.fbx-ba15e186b7462bf7f404ee30f82a79db.scn"
 
 [deps]
 
-source_file="res://Assets/kenney_mini-dungeon/Models/FBX format/banner.fbx"
-dest_files=["res://.godot/imported/banner.fbx-0cad89bc590f5d03c7a50224b2e4bd3b.scn"]
+source_file="res://assets/kenney_mini-dungeon/Models/FBX format/banner.fbx"
+dest_files=["res://.godot/imported/banner.fbx-ba15e186b7462bf7f404ee30f82a79db.scn"]
 
 [params]
 

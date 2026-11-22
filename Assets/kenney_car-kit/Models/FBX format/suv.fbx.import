@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://c4eoy1sjktopb"
-path="res://.godot/imported/suv.fbx-d848c9b9904b49187cab9f0734d3f010.scn"
+path="res://.godot/imported/suv.fbx-343e3c1513b464df6157dd8895eeb9f5.scn"
 
 [deps]
 
-source_file="res://Assets/kenney_car-kit/Models/FBX format/suv.fbx"
-dest_files=["res://.godot/imported/suv.fbx-d848c9b9904b49187cab9f0734d3f010.scn"]
+source_file="res://assets/kenney_car-kit/Models/FBX format/suv.fbx"
+dest_files=["res://.godot/imported/suv.fbx-343e3c1513b464df6157dd8895eeb9f5.scn"]
 
 [params]
 

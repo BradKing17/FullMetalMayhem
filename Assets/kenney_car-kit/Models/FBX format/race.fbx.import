@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://b2udddexqpifh"
-path="res://.godot/imported/race.fbx-ab8b429fb1ead7a60ce6ec4d6d2cb648.scn"
+path="res://.godot/imported/race.fbx-19495721e3b762b6796c229453102098.scn"
 
 [deps]
 
-source_file="res://Assets/kenney_car-kit/Models/FBX format/race.fbx"
-dest_files=["res://.godot/imported/race.fbx-ab8b429fb1ead7a60ce6ec4d6d2cb648.scn"]
+source_file="res://assets/kenney_car-kit/Models/FBX format/race.fbx"
+dest_files=["res://.godot/imported/race.fbx-19495721e3b762b6796c229453102098.scn"]
 
 [params]
 

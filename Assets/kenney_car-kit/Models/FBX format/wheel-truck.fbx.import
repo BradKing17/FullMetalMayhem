@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://kqp1bt7886pm"
-path="res://.godot/imported/wheel-truck.fbx-c449114854ec2b7f0486304c10ee1bf2.scn"
+path="res://.godot/imported/wheel-truck.fbx-04bb88edbfb8f3af7a54251bf6738a8f.scn"
 
 [deps]
 
-source_file="res://Assets/kenney_car-kit/Models/FBX format/wheel-truck.fbx"
-dest_files=["res://.godot/imported/wheel-truck.fbx-c449114854ec2b7f0486304c10ee1bf2.scn"]
+source_file="res://assets/kenney_car-kit/Models/FBX format/wheel-truck.fbx"
+dest_files=["res://.godot/imported/wheel-truck.fbx-04bb88edbfb8f3af7a54251bf6738a8f.scn"]
 
 [params]
 

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://hij4563swf46"
-path="res://.godot/imported/wood-support.fbx-487032658417b663e811b0d24acda3ce.scn"
+path="res://.godot/imported/wood-support.fbx-16a9fcd20b68d199ec40168696d93ed7.scn"
 
 [deps]
 
-source_file="res://Assets/kenney_mini-dungeon/Models/FBX format/wood-support.fbx"
-dest_files=["res://.godot/imported/wood-support.fbx-487032658417b663e811b0d24acda3ce.scn"]
+source_file="res://assets/kenney_mini-dungeon/Models/FBX format/wood-support.fbx"
+dest_files=["res://.godot/imported/wood-support.fbx-16a9fcd20b68d199ec40168696d93ed7.scn"]
 
 [params]
 

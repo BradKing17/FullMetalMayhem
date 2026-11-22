@@ -1,7 +1,8 @@
 [gd_scene format=3 uid="uid://1aj8jkd0g5uw"]
 
-[ext_resource type="Texture2D" uid="uid://dyyeay45ef0fh" path="res://Assets/kenney_prototype-textures/PNG/Dark/texture_01.png" id="1_u8cs0"]
+[ext_resource type="Texture2D" uid="uid://dyyeay45ef0fh" path="res://assets/kenney_prototype-textures/PNG/Dark/texture_01.png" id="1_u8cs0"]
 [ext_resource type="Script" uid="uid://c46kfwpyrmmsx" path="res://Scripts/Testworld.cs" id="1_y17g3"]
+[ext_resource type="PackedScene" uid="uid://b774a4eud2gen" path="res://Scenes/Environment/test_enemy.tscn" id="3_70u5t"]
 
 [sub_resource type="WorldBoundaryShape3D" id="WorldBoundaryShape3D_s1t60"]
 
@@ -86,5 +87,20 @@ shadow_enabled = true
 [node name="SpawnContainer" type="Node3D" parent="." unique_id=603090024]
 
 [node name="MultiplayerSpawner" type="MultiplayerSpawner" parent="." unique_id=2008205346]
-_spawnable_scenes = PackedStringArray("uid://cwg1vojksequ0", "uid://b774a4eud2gen")
+_spawnable_scenes = PackedStringArray("uid://b774a4eud2gen", "uid://bupdqaqa6rjdb")
 spawn_path = NodePath("../SpawnContainer")
+
+[node name="TestEnemy" parent="." unique_id=252373283 instance=ExtResource("3_70u5t")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 25.99799, 0, -16.532352)
+
+[node name="TestEnemy2" parent="." unique_id=900968414 instance=ExtResource("3_70u5t")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 25.99799, 0, 21.889381)
+
+[node name="TestEnemy3" parent="." unique_id=628630682 instance=ExtResource("3_70u5t")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.1309395, 0, 21.889381)
+
+[node name="TestEnemy4" parent="." unique_id=1308616206 instance=ExtResource("3_70u5t")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -22.922634, 0, 21.889381)
+
+[node name="TestEnemy5" parent="." unique_id=2116079735 instance=ExtResource("3_70u5t")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -22.922634, 0, 8.837269)

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cv4rhi7nekyx"
-path="res://.godot/imported/building-o.fbx-f7c0fed7d9aff5c174c6f2ebb2edf3ef.scn"
+path="res://.godot/imported/building-o.fbx-3c2bacb37110064200f87082446d1e2c.scn"
 
 [deps]
 
-source_file="res://Assets/kenney_city-kit-industrial_2.0/Models/FBX format/building-o.fbx"
-dest_files=["res://.godot/imported/building-o.fbx-f7c0fed7d9aff5c174c6f2ebb2edf3ef.scn"]
+source_file="res://assets/kenney_city-kit-industrial_2.0/Models/FBX format/building-o.fbx"
+dest_files=["res://.godot/imported/building-o.fbx-3c2bacb37110064200f87082446d1e2c.scn"]
 
 [params]
 

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://crv2sfs4rwdno"
-path="res://.godot/imported/shipping-container-b.fbx-cfbac4f3736e99eed9f85d493111b3d7.scn"
+path="res://.godot/imported/shipping-container-b.fbx-9b3463c0481f6eab27ae851fbb61d0a3.scn"
 
 [deps]
 
-source_file="res://Assets/kenney_city-kit-industrial_2.0/Models/FBX format/shipping-container-b.fbx"
-dest_files=["res://.godot/imported/shipping-container-b.fbx-cfbac4f3736e99eed9f85d493111b3d7.scn"]
+source_file="res://assets/kenney_city-kit-industrial_2.0/Models/FBX format/shipping-container-b.fbx"
+dest_files=["res://.godot/imported/shipping-container-b.fbx-9b3463c0481f6eab27ae851fbb61d0a3.scn"]
 
 [params]
 

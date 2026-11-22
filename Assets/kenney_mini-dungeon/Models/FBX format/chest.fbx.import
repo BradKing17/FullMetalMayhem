@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://wqhsc2emsi8f"
-path="res://.godot/imported/chest.fbx-265b31038a28cacb3890e8e9a66dfc00.scn"
+path="res://.godot/imported/chest.fbx-8e017b78bb40de16bbb05a608f0eeac0.scn"
 
 [deps]
 
-source_file="res://Assets/kenney_mini-dungeon/Models/FBX format/chest.fbx"
-dest_files=["res://.godot/imported/chest.fbx-265b31038a28cacb3890e8e9a66dfc00.scn"]
+source_file="res://assets/kenney_mini-dungeon/Models/FBX format/chest.fbx"
+dest_files=["res://.godot/imported/chest.fbx-8e017b78bb40de16bbb05a608f0eeac0.scn"]
 
 [params]
 

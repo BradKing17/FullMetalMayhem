@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dyyw5gsnlca5h"
-path="res://.godot/imported/weapon-sword.fbx-056a2a8d064eb8a3d537a976cf6682a6.scn"
+path="res://.godot/imported/weapon-sword.fbx-8b4eee76dfebf7082153b9c751468e1c.scn"
 
 [deps]
 
-source_file="res://Assets/kenney_mini-dungeon/Models/FBX format/weapon-sword.fbx"
-dest_files=["res://.godot/imported/weapon-sword.fbx-056a2a8d064eb8a3d537a976cf6682a6.scn"]
+source_file="res://assets/kenney_mini-dungeon/Models/FBX format/weapon-sword.fbx"
+dest_files=["res://.godot/imported/weapon-sword.fbx-8b4eee76dfebf7082153b9c751468e1c.scn"]
 
 [params]
 

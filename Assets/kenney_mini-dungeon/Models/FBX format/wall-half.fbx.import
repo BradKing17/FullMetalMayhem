@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://d3ivb2cdb2y6m"
-path="res://.godot/imported/wall-half.fbx-bcd0195703298ea6461c20c728c00012.scn"
+path="res://.godot/imported/wall-half.fbx-a0fb40b6e32b2aaa6fbbdf2e44f5ed1c.scn"
 
 [deps]
 
-source_file="res://Assets/kenney_mini-dungeon/Models/FBX format/wall-half.fbx"
-dest_files=["res://.godot/imported/wall-half.fbx-bcd0195703298ea6461c20c728c00012.scn"]
+source_file="res://assets/kenney_mini-dungeon/Models/FBX format/wall-half.fbx"
+dest_files=["res://.godot/imported/wall-half.fbx-a0fb40b6e32b2aaa6fbbdf2e44f5ed1c.scn"]
 
 [params]
 

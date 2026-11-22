@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bnuw0a3413pfi"
-path="res://.godot/imported/weapon-spear.fbx-b67c7ae8ee996c61bf2e8569c7e70254.scn"
+path="res://.godot/imported/weapon-spear.fbx-fab466843064f1805d21c04eb00649b8.scn"
 
 [deps]
 
-source_file="res://Assets/kenney_mini-dungeon/Models/FBX format/weapon-spear.fbx"
-dest_files=["res://.godot/imported/weapon-spear.fbx-b67c7ae8ee996c61bf2e8569c7e70254.scn"]
+source_file="res://assets/kenney_mini-dungeon/Models/FBX format/weapon-spear.fbx"
+dest_files=["res://.godot/imported/weapon-spear.fbx-fab466843064f1805d21c04eb00649b8.scn"]
 
 [params]
 

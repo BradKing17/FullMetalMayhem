@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://brg0j72mf7mpf"
-path="res://.godot/imported/stairs.fbx-28b603cdb0c7e74fce8b18a6e5ceea8e.scn"
+path="res://.godot/imported/stairs.fbx-3c0b807454b39ecd25baab111a69ec30.scn"
 
 [deps]
 
-source_file="res://Assets/kenney_mini-dungeon/Models/FBX format/stairs.fbx"
-dest_files=["res://.godot/imported/stairs.fbx-28b603cdb0c7e74fce8b18a6e5ceea8e.scn"]
+source_file="res://assets/kenney_mini-dungeon/Models/FBX format/stairs.fbx"
+dest_files=["res://.godot/imported/stairs.fbx-3c0b807454b39ecd25baab111a69ec30.scn"]
 
 [params]
 

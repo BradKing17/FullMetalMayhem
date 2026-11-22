@@ -13,7 +13,7 @@ public partial class Global : Node
 
 
 
-[Rpc(MultiplayerApi.RpcMode.AnyPeer, CallLocal = true)]
+	[Rpc(MultiplayerApi.RpcMode.Authority, CallLocal = true)]
 	public void Shoot(Vector3 pos, Vector3 direction, PackedScene projectile)
 	{
 
@@ -22,7 +22,40 @@ public partial class Global : Node
 
 
 		spawnContainer.AddChild(bullet, true);
-		bullet.GlobalPosition = pos + direction * 2;
-		bullet.ApplyCentralImpulse(direction);
+		bullet.GlobalPosition = pos;
+		bullet.ApplyCentralImpulse(direction * 100);
+	}
+
+
+	[Rpc(MultiplayerApi.RpcMode.Authority, CallLocal = true)]
+	public void SpawnExplosionEffect(Vector3 position, string effectPath)
+	{
+		var effect = GD.Load<PackedScene>(effectPath);
+
+		if (effect == null)
+		{
+			GD.PrintErr("Could not load explosion: " + effectPath);
+			return;
+		}
+
+		var explosion = effect.Instantiate<Node3D>();
+
+		GetTree().CurrentScene.AddChild(explosion);
+
+		explosion.GlobalPosition = position;
+
+		explosion.Connect(
+			"finished",
+			Callable.From(explosion.QueueFree)
+		);
+
+		explosion.Call("play");
+	}
+
+	[Rpc(MultiplayerApi.RpcMode.AnyPeer, CallLocal = true)]
+	public void Death(Node3D killed)
+	{
+		GD.Print("AAAAAAAAAAAAAAAAAH");
+		killed.QueueFree();
 	}
 }

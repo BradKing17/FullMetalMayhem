@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://d2lwvl2xg8c3g"
-path="res://.godot/imported/sedan-sports.fbx-2da59a687d5c2ad989e25279ba7b03fd.scn"
+path="res://.godot/imported/sedan-sports.fbx-1ee0e0ff1cd2b9050164b3f95f6483f6.scn"
 
 [deps]
 
-source_file="res://Assets/kenney_car-kit/Models/FBX format/sedan-sports.fbx"
-dest_files=["res://.godot/imported/sedan-sports.fbx-2da59a687d5c2ad989e25279ba7b03fd.scn"]
+source_file="res://assets/kenney_car-kit/Models/FBX format/sedan-sports.fbx"
+dest_files=["res://.godot/imported/sedan-sports.fbx-1ee0e0ff1cd2b9050164b3f95f6483f6.scn"]
 
 [params]
 

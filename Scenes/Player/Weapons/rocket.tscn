@@ -1,7 +1,8 @@
 [gd_scene format=3 uid="uid://bupdqaqa6rjdb"]
 
-[ext_resource type="Texture2D" uid="uid://dmll657iojn1r" path="res://Assets/kenney_prototype-textures/PNG/Dark/texture_04.png" id="1_shse5"]
+[ext_resource type="Texture2D" uid="uid://dmll657iojn1r" path="res://assets/kenney_prototype-textures/PNG/Dark/texture_04.png" id="1_shse5"]
 [ext_resource type="Script" uid="uid://dnny3qqtc8apv" path="res://Scenes/Player/Weapons/Explosive.cs" id="1_utj1a"]
+[ext_resource type="PackedScene" uid="uid://chqijevfxuhpd" path="res://assets/BinbunVFX_Vol2/ExplosionFX/effects/ground/vfx_ground_explosion_01.tscn" id="4_3hqdr"]
 
 [sub_resource type="PhysicsMaterial" id="PhysicsMaterial_pv343"]
 friction = 0.3
@@ -20,21 +21,20 @@ radius = 0.3
 height = 0.6
 
 [sub_resource type="SceneReplicationConfig" id="SceneReplicationConfig_pv343"]
-properties/0/path = NodePath("..:rotation")
+properties/0/path = NodePath(".:position")
 properties/0/spawn = true
 properties/0/replication_mode = 1
-properties/1/path = NodePath("..:position")
-properties/1/spawn = true
-properties/1/replication_mode = 1
 
 [sub_resource type="SphereShape3D" id="SphereShape3D_8g2fy"]
 radius = 0.4
 
-[node name="TestBall" type="RigidBody3D" unique_id=851704057 node_paths=PackedStringArray("detonateArea")]
+[node name="Explosive" type="RigidBody3D" unique_id=851704057 node_paths=PackedStringArray("detonateArea", "mesh")]
 collision_layer = 0
 physics_material_override = SubResource("PhysicsMaterial_pv343")
 script = ExtResource("1_utj1a")
 detonateArea = NodePath("Area3D")
+explosionEffect = ExtResource("4_3hqdr")
+mesh = NodePath("MeshInstance3D")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1426841494]
 shape = SubResource("SphereShape3D_s1t60")
@@ -43,7 +43,6 @@ shape = SubResource("SphereShape3D_s1t60")
 mesh = SubResource("SphereMesh_s1t60")
 
 [node name="MultiplayerSynchronizer" type="MultiplayerSynchronizer" parent="." unique_id=47164342]
-root_path = NodePath("../MeshInstance3D")
 replication_config = SubResource("SceneReplicationConfig_pv343")
 
 [node name="Area3D" type="Area3D" parent="." unique_id=677668754]

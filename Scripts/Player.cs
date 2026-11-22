@@ -74,6 +74,10 @@ public partial class Player : CharacterBody3D
 
 	public override void _PhysicsProcess(double delta)
 	{
+		if(!IsMultiplayerAuthority())
+		{
+			return;
+		}
 		if(!immobilized){
 			Vector3 velocity = Velocity;
 
@@ -100,10 +104,7 @@ public partial class Player : CharacterBody3D
 
 			Velocity = velocity;
 
-			if(!IsMultiplayerAuthority())
-			{
-				return;
-			}
+
 			if (playerCamera == null) return;
 
 			Vector2 mousePos = GetViewport().GetMousePosition();

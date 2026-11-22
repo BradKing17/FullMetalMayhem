@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bkhg5alj11n5x"
-path="res://.godot/imported/coin.fbx-05a8b535a4125e126674f396353c8b1b.scn"
+path="res://.godot/imported/coin.fbx-b598080bdd221d216ea13e0bd632fb1a.scn"
 
 [deps]
 
-source_file="res://Assets/kenney_mini-dungeon/Models/FBX format/coin.fbx"
-dest_files=["res://.godot/imported/coin.fbx-05a8b535a4125e126674f396353c8b1b.scn"]
+source_file="res://assets/kenney_mini-dungeon/Models/FBX format/coin.fbx"
+dest_files=["res://.godot/imported/coin.fbx-b598080bdd221d216ea13e0bd632fb1a.scn"]
 
 [params]
 

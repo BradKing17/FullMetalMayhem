@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bdrboig7i8d28"
-path="res://.godot/imported/dirt.fbx-aadd0c64a6f6a873b432d0b3c2320e2f.scn"
+path="res://.godot/imported/dirt.fbx-b063f59a586d58417ad3160e25fcca0e.scn"
 
 [deps]
 
-source_file="res://Assets/kenney_mini-dungeon/Models/FBX format/dirt.fbx"
-dest_files=["res://.godot/imported/dirt.fbx-aadd0c64a6f6a873b432d0b3c2320e2f.scn"]
+source_file="res://assets/kenney_mini-dungeon/Models/FBX format/dirt.fbx"
+dest_files=["res://.godot/imported/dirt.fbx-b063f59a586d58417ad3160e25fcca0e.scn"]
 
 [params]
 

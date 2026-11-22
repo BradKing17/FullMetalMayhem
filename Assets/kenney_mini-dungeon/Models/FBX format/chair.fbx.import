@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dojlaeh1nlkm0"
-path="res://.godot/imported/chair.fbx-686983f3cec5ff47c985daf50fdb87ae.scn"
+path="res://.godot/imported/chair.fbx-f2807007e7a75114f6a1fc94801f9299.scn"
 
 [deps]
 
-source_file="res://Assets/kenney_mini-dungeon/Models/FBX format/chair.fbx"
-dest_files=["res://.godot/imported/chair.fbx-686983f3cec5ff47c985daf50fdb87ae.scn"]
+source_file="res://assets/kenney_mini-dungeon/Models/FBX format/chair.fbx"
+dest_files=["res://.godot/imported/chair.fbx-f2807007e7a75114f6a1fc94801f9299.scn"]
 
 [params]
 

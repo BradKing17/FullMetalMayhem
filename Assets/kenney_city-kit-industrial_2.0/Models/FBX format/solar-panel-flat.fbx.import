@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://ddund2qysemc7"
-path="res://.godot/imported/solar-panel-flat.fbx-1539aa9ea6f3d4b25259a45ce0ad5553.scn"
+path="res://.godot/imported/solar-panel-flat.fbx-edfc31be15fede57cdcfe7513825abb9.scn"
 
 [deps]
 
-source_file="res://Assets/kenney_city-kit-industrial_2.0/Models/FBX format/solar-panel-flat.fbx"
-dest_files=["res://.godot/imported/solar-panel-flat.fbx-1539aa9ea6f3d4b25259a45ce0ad5553.scn"]
+source_file="res://assets/kenney_city-kit-industrial_2.0/Models/FBX format/solar-panel-flat.fbx"
+dest_files=["res://.godot/imported/solar-panel-flat.fbx-edfc31be15fede57cdcfe7513825abb9.scn"]
 
 [params]
 

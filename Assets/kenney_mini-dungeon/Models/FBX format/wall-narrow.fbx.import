@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://d31gq4srsxtlw"
-path="res://.godot/imported/wall-narrow.fbx-76a2b8efa4ddd56e289a58afff81fe8e.scn"
+path="res://.godot/imported/wall-narrow.fbx-a4c4077844e8bc9a4c29b4f14fa99bde.scn"
 
 [deps]
 
-source_file="res://Assets/kenney_mini-dungeon/Models/FBX format/wall-narrow.fbx"
-dest_files=["res://.godot/imported/wall-narrow.fbx-76a2b8efa4ddd56e289a58afff81fe8e.scn"]
+source_file="res://assets/kenney_mini-dungeon/Models/FBX format/wall-narrow.fbx"
+dest_files=["res://.godot/imported/wall-narrow.fbx-a4c4077844e8bc9a4c29b4f14fa99bde.scn"]
 
 [params]
 

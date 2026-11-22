@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://b4llhcv4gh8gg"
-path="res://.godot/imported/kart-oozi.fbx-b179801e6eead0782606cd37117fa2da.scn"
+path="res://.godot/imported/kart-oozi.fbx-294193bc08075e6acf0b7b5d473348dc.scn"
 
 [deps]
 
-source_file="res://Assets/kenney_car-kit/Models/FBX format/kart-oozi.fbx"
-dest_files=["res://.godot/imported/kart-oozi.fbx-b179801e6eead0782606cd37117fa2da.scn"]
+source_file="res://assets/kenney_car-kit/Models/FBX format/kart-oozi.fbx"
+dest_files=["res://.godot/imported/kart-oozi.fbx-294193bc08075e6acf0b7b5d473348dc.scn"]
 
 [params]
 

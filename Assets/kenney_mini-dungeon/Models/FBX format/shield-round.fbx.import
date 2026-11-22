@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://by1xqllbe6bci"
-path="res://.godot/imported/shield-round.fbx-ceb2410f55b75acbc8d56eb6c08fd5a7.scn"
+path="res://.godot/imported/shield-round.fbx-b21eb054f2f0cff0c15ed4db109456a2.scn"
 
 [deps]
 
-source_file="res://Assets/kenney_mini-dungeon/Models/FBX format/shield-round.fbx"
-dest_files=["res://.godot/imported/shield-round.fbx-ceb2410f55b75acbc8d56eb6c08fd5a7.scn"]
+source_file="res://assets/kenney_mini-dungeon/Models/FBX format/shield-round.fbx"
+dest_files=["res://.godot/imported/shield-round.fbx-b21eb054f2f0cff0c15ed4db109456a2.scn"]
 
 [params]
 

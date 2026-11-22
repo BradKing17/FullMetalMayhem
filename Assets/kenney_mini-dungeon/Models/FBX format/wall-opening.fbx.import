@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://hj13cpkcxobk"
-path="res://.godot/imported/wall-opening.fbx-9902722135c24075b5b01b94ba04c929.scn"
+path="res://.godot/imported/wall-opening.fbx-1cde7337c1557dd81ec439aebd94a335.scn"
 
 [deps]
 
-source_file="res://Assets/kenney_mini-dungeon/Models/FBX format/wall-opening.fbx"
-dest_files=["res://.godot/imported/wall-opening.fbx-9902722135c24075b5b01b94ba04c929.scn"]
+source_file="res://assets/kenney_mini-dungeon/Models/FBX format/wall-opening.fbx"
+dest_files=["res://.godot/imported/wall-opening.fbx-1cde7337c1557dd81ec439aebd94a335.scn"]
 
 [params]
 
