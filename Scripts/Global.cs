@@ -10,7 +10,12 @@ public partial class Global : Node
 
 	public static  Node3D spawnContainer;
 
+	public int points = 0;
 
+    public override void _Ready()
+    {
+        points = 0;
+    }
 
 
 	[Rpc(MultiplayerApi.RpcMode.Authority, CallLocal = true)]
@@ -55,6 +60,11 @@ public partial class Global : Node
 	[Rpc(MultiplayerApi.RpcMode.AnyPeer, CallLocal = true)]
 	public void Death(Node3D killed)
 	{
+		if(killed.IsInGroup("Enemies"))
+		{
+			points++;
+			GD.Print(points);
+		}
 		GD.Print("AAAAAAAAAAAAAAAAAH");
 		killed.QueueFree();
 	}
